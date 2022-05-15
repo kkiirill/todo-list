@@ -1,0 +1,60 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 3px 0;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 3px 3px rgb(137, 242, 254);
+}
+
+.item-task {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.none {
+  color: #ff5b52;
+  text-decoration: line-through;
+}
+
+.button-remove {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 40px;
+  outline: 0;
+  padding: 6px 10px;
+  margin: 5px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-remove:hover,
+.button-remove:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-remove:active {
+  opacity: 0.5;
+}
