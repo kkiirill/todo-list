@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/todo-list/static/css/main.dab2256d.css",
+    "main.js": "/github.io/todo-list/static/js/main.09a365c0.js",
+    "index.html": "/github.io/todo-list/index.html",
+    "main.dab2256d.css.map": "/github.io/todo-list/static/css/main.dab2256d.css.map",
+    "main.09a365c0.js.map": "/github.io/todo-list/static/js/main.09a365c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dab2256d.css",
+    "static/js/main.09a365c0.js"
+  ]
+}
